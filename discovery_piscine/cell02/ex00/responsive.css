@@ -1,0 +1,33 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.board {
+  width: 100vw;              
+  height: 100vh;             
+  border-collapse: collapse;
+  table-layout: fixed;       
+}
+.board td {
+  border: 1px solid #000;
+  text-align: center;
+  color: #000;
+  font-size: clamp(16px, 5vw, 48px); 
+}
+.left  { background: lightblue;  }
+.right { background: lightgreen; }
+@media (max-width: 600px) {
+  .board, .board tbody, .board tr {
+    display: block;
+    height: 100vh;
+  }
+  .board tr {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .board td {
+    width: 100%;
+    height: 50%;
+  }
+}
