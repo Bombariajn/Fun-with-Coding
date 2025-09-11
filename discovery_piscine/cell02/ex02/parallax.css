@@ -1,0 +1,43 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.parallax {
+  height: 100vh; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.bg1 {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/b6/Mount_Everest_as_seen_from_Drukair2_PLW_edit_Cropped.jpg");
+}
+.bg2 {
+  background-image: url("https://cdn.tourradar.com/s3/serp/1500x800/212205_8TGGd7HZ.jpg");
+}
+
+.caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+.caption .border {
+  padding: 20px;
+  font-size: 2em;
+  letter-spacing: 3px;
+  color: white; 
+}
+
+.section.dark {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 100px 20px;
+}
