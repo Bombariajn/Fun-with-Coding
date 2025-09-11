@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.dropdown-wrapper {
+  background: #5b2e90;
+  padding: 20px;
+  border-radius: 8px;
+  color: white;
+}
+
+label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+select {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: none;
+  font-size: 16px;
+}
